@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="282px" height="201px" viewBox="0 0 282 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-js</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M175.101351,139.993243 C183.675676,153.993243 194.831081,164.283784 214.560811,164.283784 C231.135135,164.283784 241.722973,156 241.722973,144.554054 C241.722973,130.837838 230.844595,125.97973 212.601351,118 L202.601351,113.709459 C173.736486,101.412162 154.560811,86.0067568 154.560811,53.4391892 C154.560811,23.4391892 177.418919,0.601351351 213.141892,0.601351351 C238.574324,0.601351351 256.858108,9.4527027 270.033784,32.6283784 L238.885135,52.6283784 C232.027027,40.3310811 224.628378,35.4864865 213.141892,35.4864865 C201.425676,35.4864865 194,42.9189189 194,52.6283784 C194,64.6283784 201.432432,69.4864865 218.594595,76.9189189 L228.594595,81.2027027 C262.581081,95.777027 281.77027,110.635135 281.77027,144.040541 C281.77027,180.054054 253.47973,199.783784 215.486486,199.783784 C178.337838,199.783784 154.337838,182.081081 142.594595,158.878378 L175.101351,139.993243 Z M33.1554054,144.175676 C39.4391892,155.324324 45.1554054,164.75 58.8986486,164.75 C72.0405405,164.75 80.3310811,159.608108 80.3310811,139.614865 L80.3310811,3.60135135 L120.331081,3.60135135 L120.331081,140.155405 C120.331081,181.574324 96.0472973,200.425676 60.6013514,200.425676 C28.5743243,200.425676 10.027027,183.851351 0.594594595,163.888514 L33.1554054,144.175676 Z" id="path-1"></path>
+        <filter x="-0.7%" y="-1.0%" width="101.4%" height="102.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.933333333   0 0 0 0 0.933333333   0 0 0 0 0.933333333  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-52.000000, -436.000000)" fill-rule="nonzero">
+            <g id="logo-js" transform="translate(52.000000, 436.000000)">
+                <g id="Shape">
+                    <use fill="#E5E5E5" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
