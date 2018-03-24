@@ -30,7 +30,7 @@ a {
     text-decoration: none;
 }
 
-header {
+.dd-header {
     background: $color-dark;
     position: relative;
     border-bottom: 5px solid $color-primary;
@@ -63,7 +63,6 @@ header {
     list-style: none;
     line-height: 3.5;
     a {
-        text-decoration: line-through;
         cursor: not-allowed;       
     }
     
@@ -71,6 +70,10 @@ header {
         @extend %highlight;
         text-decoration: none;
     }
+}
+
+.line-through {
+    text-decoration: line-through;    
 }
 
 // Mobile Side Menu
@@ -99,10 +102,10 @@ header {
 nav#menu {
     background: $color-dark;
     padding: .5em;
-    header {
+    .dd-header {
         border-bottom: 0;
     }
-    header h2 {
+    .dd-header h2 {
         background: $color-dark;
         font-weight: lighter;
     }
@@ -170,7 +173,7 @@ main {
     }
 }
 
-header {
+.dd-header {
     grid-area: header;
 }
 
