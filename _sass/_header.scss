@@ -1,0 +1,81 @@
+.dd-header {
+    background: $color-dark;
+    position: relative;
+    border-bottom: 5px solid $color-primary;
+
+    nav {
+        height: 60px;
+
+        a {
+            color: $gray-73;
+            padding: 0 .8em;
+
+            @media (max-width: $device-width) {
+                display: none;
+            }
+        }
+
+        .navlist {
+            text-align: center;
+            list-style: none;
+            line-height: 3.5;
+        }
+
+        li {
+            display: inline;
+        }
+    }
+}
+
+.navlist {
+    list-style: none;
+    line-height: 3.5;
+
+    a {
+        cursor: not-allowed;
+    }
+
+    li a.active {
+        @extend %highlight;
+
+        text-decoration: none;
+    }
+}
+
+nav#menu {
+    background: $color-dark;
+    padding: .5em;
+
+    .dd-header {
+        border-bottom: 0;
+    }
+
+    .dd-header h2 {
+        background: $color-dark;
+        font-weight: lighter;
+    }
+}
+
+.profile-pic {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+
+    &::before {
+        content: '';
+        display: inline-block;
+        width: 105px;
+        height: 105px;
+        background: $color-primary;
+        position: absolute;
+        top: 0;
+        left: -4px;
+        border-radius: 50%;
+        z-index: -10;
+    }
+
+    @media (max-width: $device-width) {
+        left: 50%;
+        margin-left: -50px;
+    }
+}

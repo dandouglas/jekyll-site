@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Avenir', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: $color-text;
+    background: $gray-10;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    padding-left: 2em;
+    h1 {
+        margin-bottom: 0;
+    }
+    h3 {
+        margin-top: 0;
+    }
+    p {
+        line-height: 2.0;
+    }
+
+    @media (max-width: $device-width) {
+        padding-right: 2em;
+        padding-top: 1em;
+        text-align: justify;
+
+        @supports (text-justify: inter-word) {
+            main p {
+                text-justify: inter-word;
+            }
+        }
+    }
+}
