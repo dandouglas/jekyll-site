@@ -2,12 +2,14 @@
     background: $color-dark;
     position: relative;
     border-bottom: 5px solid $color-primary;
+    a {
+        color: $gray-73;
+    }
 
     nav {
         height: 60px;
 
         a {
-            color: $gray-73;
             padding: 0 .8em;
 
             @media (max-width: $device-width) {
@@ -37,7 +39,6 @@
 
     li a.active {
         @extend %highlight;
-
         text-decoration: none;
     }
 }
